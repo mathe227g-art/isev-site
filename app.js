@@ -1,0 +1,2 @@
+document.querySelectorAll('[id="year"]').forEach(el=>el.textContent=new Date().getFullYear());
+if('IntersectionObserver' in window){document.body.classList.add('js-motion');const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}}),{threshold:.08});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el))}

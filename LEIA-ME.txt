@@ -1,0 +1,7 @@
+iSev Soluções — versão para abrir no computador
+
+1. Extraia esta pasta inteira.
+2. Abra index.html no navegador.
+3. Não mova os arquivos de estilo, imagens ou as pastas solucoes.
+
+Esta versão usa caminhos relativos e funciona sem servidor local.
